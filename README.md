@@ -14,8 +14,7 @@ Nous appelons cette idée : **le rythme des champs** (*Rhythm of Fields Theory*)
    Chaque particule massive bat son horloge interne (fréquence de Compton).  
 
 2. **Toute énergie est temps**  
-   Qu’elle soit avec ou sans masse, toute énergie s’exprime par une fréquence  
-   :math:`\nu = E/h`.  
+   Qu’elle soit avec ou sans masse, toute énergie s’exprime par une fréquence ν = E/h  
 
 3. **La gravité est modulation**  
    Elle ne crée pas le temps, elle accorde ou désaccorde les rythmes  
