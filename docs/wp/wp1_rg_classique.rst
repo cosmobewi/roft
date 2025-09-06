@@ -1,9 +1,13 @@
-===============================
-WP1 — RG classique en langage "rythme"
-===============================
+WP1 — Temps propre en langage rythme
+====================================
 
-1. Temps propre : la règle du tempo
-===================================
+But
+---
+But : poser la base, montrer que dτ en RG n’est rien d’autre que la cadence du métronome interne.
+
+Temps propre : la règle du tempo
+-----------------------------------
+
 Une horloge locale mesure son temps propre :
 
 .. math::
@@ -14,8 +18,9 @@ Une horloge locale mesure son temps propre :
 - **Lecture rythme** : cadence du métronome interne (horloge de Compton) modulée par la géométrie.
 
 
-2. Limite faible champ (approximation Newtonienne)
-==================================================
+Limite faible champ (approximation Newtonienne)
+--------------------------------------------------
+
 Métrique statique, faible champ :
 
 .. math::
@@ -33,8 +38,9 @@ Alors :
 - **Lecture rythme** : le potentiel \Phi ralentit le métronome, la vitesse v ajoute une désynchronisation.
 
 
-3. Équation de Poisson (Newton comme limite de RG)
-==================================================
+Équation de Poisson (Newton comme limite de RG)
+--------------------------------------------------
+
 Depuis Einstein :
 
 .. math::
@@ -53,8 +59,9 @@ On obtient :
 - **Lecture rythme** : la densité de matière fixe la carte des tempos locaux.
 
 
-4. Redshift gravitationnel
-==========================
+Redshift gravitationnel
+-----------------------
+
 Deux observateurs statiques comparent leurs horloges :
 
 .. math::
@@ -72,8 +79,9 @@ Faible champ :
 - **Lecture rythme** : l’horloge plus profonde dans le potentiel bat plus lentement.
 
 
-5. Géodésiques = chemins de rythme extrême
-==========================================
+Géodésiques = chemins de rythme extrême
+---------------------------------------
+
 Les géodésiques maximisent (ou minimisent) :
 
 .. math::

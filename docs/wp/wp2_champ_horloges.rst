@@ -1,13 +1,12 @@
-===================================
-WP2 — Traduction "champ d'horloges"
-===================================
+WP2 — Champ d'horloges R(x)=dτ/dt
+=================================
 
 But
-===
+---
 Définir un champ scalaire opérationnel qui encode la cadence locale des horloges.
 
 Définition
-==========
+----------
 On introduit :
 
 .. math::
@@ -18,9 +17,8 @@ On introduit :
 - **Lecture standard** : facteur de dilatation du temps propre par rapport au temps coordonné.  
 - **Lecture rythme** : le champ :math:`R(x)` est la "vitesse de battement" des horloges locales.
 
-
 Cas statique (faible champ)
-===========================
+---------------------------
 Pour une métrique de type Schwarzschild et vitesses modérées :
 
 .. math::
@@ -30,9 +28,8 @@ Pour une métrique de type Schwarzschild et vitesses modérées :
 - **Lecture standard** : correction par potentiel et vitesse.  
 - **Lecture rythme** : :math:`\Phi` règle le tempo global, :math:`v` désynchronise localement.
 
-
 Extension : rotation et gravitomagnétisme
-=========================================
+-----------------------------------------
 Si la métrique a des termes hors diagonale :math:`g_{0i}` (par ex. cadre en rotation, Lense–Thirring) :
 
 .. math::
@@ -42,14 +39,13 @@ Si la métrique a des termes hors diagonale :math:`g_{0i}` (par ex. cadre en rot
 - **Lecture standard** : apparition d’effets de type "gravitomagnétique".  
 - **Lecture rythme** : les horloges ressentent une modulation supplémentaire liée aux flux de rotation.
 
-
 Dictionnaire g_{\mu\nu} ↔ R(x)
-==============================
+------------------------------
 - :math:`g_{00}` → ralentissement dû au potentiel (tempo global).  
 - :math:`g_{0i}` → effets de rotation (décalage de phase, Sagnac).  
 - :math:`g_{ij}` → courbure spatiale (trajet des rayons, cohérence des tempos).
 
 Conclusion
-==========
+----------
 Le champ :math:`R(x)` traduit la métrique entière en termes de **rythmes d’horloges**.  
 Il devient une variable de travail universelle : comparer deux observateurs revient à comparer leurs :math:`R(x)`.

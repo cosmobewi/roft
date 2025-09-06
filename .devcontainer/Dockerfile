@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
     libfftw3-dev \
     libopenblas-dev liblapack-dev \
     gnuplot \
+    graphviz \
     && rm -rf /var/lib/apt/lists/*
 
 

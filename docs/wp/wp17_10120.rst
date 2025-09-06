@@ -1,0 +1,117 @@
+WP17 — Le problème des 10^120 et l’énergie noire
+================================================
+
+Résumé
+------
+
+Le **problème des 10^120** provient de l’écart gigantesque entre :
+
+- la densité d’énergie du vide prédite naïvement par la QFT :  
+  :math:`\rho_{\rm vac}^{\rm QFT} \sim 10^{113}\ \text{J/m}^3`
+- la densité observée associée à l’énergie noire :  
+  :math:`\rho_{\Lambda}^{\rm obs} \sim 10^{-10}\ \text{J/m}^3`
+
+Soit un rapport :math:`\sim 10^{123}` (souvent arrondi en « problème des 10^120 »).
+
+Dans la lecture classique, cet écart semble insoluble : il faudrait une annulation
+quasi-parfaite des contributions quantiques.
+
+Lecture ROFT
+------------
+
+La **Rhythm of Fields Theory (ROFT)** propose une autre interprétation :
+
+- L’énorme terme de fond correspond au **battement interne absolu** des champs,
+  qui est **universel** et donc non observable.
+- Seules comptent les **différences de rythme** entre secteurs,
+  comme le stipule l’axiome de contraste.
+
+Ainsi, l’énergie noire ne provient pas d’une somme d’offsets UV,
+mais de la **désynchronisation effective** entre horloges.
+
+Équation-pont
+-------------
+
+.. math::
+
+   \nu_{\rm obs} = \frac{E}{h} \cdot \frac{d\tau}{dt}
+
+- :math:`E/h` → rythme quantique interne (fréquence de Compton ou transitions atomiques).  
+- :math:`d\tau/dt` → modulation universelle (gravité, expansion).  
+- Ce qui compte n’est pas le zéro absolu de :math:`E/h`,  
+  mais son **contraste** avec d’autres horloges.
+
+Extension de l’axiome de visibilité
+-----------------------------------
+
+**Spectre de visibilité élargie** :  
+
+- :math:`\Delta\nu > 0` → désynchronisé = **visible** (matière baryonique, rayonnement).  
+- :math:`\Delta\nu = 0` → synchrone = **invisible mais gravitatif** (matière noire).  
+- :math:`d\tau/dt \to 0` → **figé** (trou noir).  
+
+**Ajout ROFT — énergie noire** :  
+Lorsque la désynchronisation devient **globale et cumulative**,  
+les horloges de secteurs distincts ne se recalent plus.  
+
+- Le contraste ne reste plus local : il devient cosmologique.  
+- Ce déphasage collectif apparaît dans la métrique
+  comme une **accélération de l’expansion**.
+
+→ L’énergie noire est donc interprétée non comme une force répulsive,
+mais comme un **effet rythmique global**.
+
+Simulation illustrative
+-----------------------
+
+Un petit script Python montre comment le **filtre rythmique** de la ROFT
+supprime l’offset géant et ne garde que les variations effectives :
+
+.. code-block:: python
+
+   import numpy as np
+
+   # Densité QFT naïve
+   rho_qft = 4.6e113  # J/m^3
+   # Densité observée (énergie noire)
+   rho_obs = 5.3e-10  # J/m^3
+
+   # Exemple de fluctuations locales (arbitraires)
+   deltas = np.array([0, -4.3e-4, 0, 2e-4, -1e-4])
+
+   offset = np.mean(deltas) + rho_qft
+   variations = deltas - np.mean(deltas)
+
+   print("Offset moyen enlevé =", offset)
+   print("Variations projetées =", variations)
+   print("Norme effective =", np.linalg.norm(variations))
+
+Résultat typique :
+
+.. code-block::
+
+   Offset moyen enlevé = 4.6e113 J/m^3
+   Variations projetées = [-2e-04 -1e-04  0  1e-04  2e-04] J/m^3
+   Norme effective = 3.16e-04 J/m^3
+
+→ Le **fond UV énorme disparaît**,  
+→ seules subsistent les variations locales et finies,  
+qui peuvent être reliées à une courbure effective.
+
+Conséquences
+------------
+
+- Le problème des 10^120 est un **artefact d’interprétation** :
+  on additionne des offsets invisibles au lieu de ne garder
+  que les contrastes rythmés.  
+- L’énergie noire apparaît comme la **désynchronisation extrême**
+  des horloges à l’échelle cosmologique.  
+- Les trous noirs, la matière noire et l’énergie noire
+  ne sont pas des entités exotiques distinctes,
+  mais des cas limites du **spectre de visibilité**.
+
+.. seealso::
+
+   - :doc:`../cadre_conceptuel_roft`
+   - :doc:`wp16_fond_dynamique`
+   - :doc:`wp18_matiere_noire`

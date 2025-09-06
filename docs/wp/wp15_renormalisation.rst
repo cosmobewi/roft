@@ -1,14 +1,15 @@
-=======================================================
 WP15 — Exemple : Renormalisation évitée par l’axiome
 =======================================================
 
 Cas concret : énergie dans un puits gravitationnel faible
-========================================================
+---------------------------------------------------------
+
 Nous comparons deux approches de la correction d’énergie pour une particule
 dans un champ gravitationnel faible.
 
 1. Approche "champ perturbatif" (QFT naïve)
--------------------------------------------
+*******************************************
+
 - On traite la gravité comme un champ de spin-2 couplé à la matière.  
 - Diagrammes de Feynman : l’électron échange un « graviton virtuel » avec lui-même.  
 - Résultat : correction infinie à sa masse → **non renormalisable**.  
@@ -18,7 +19,8 @@ dans un champ gravitationnel faible.
    une constante indépendante. Cela introduit des divergences incontrôlables.
 
 2. Approche "rythme universel" (axiome)
----------------------------------------
+***************************************
+
 - La gravité n’est pas un champ en plus mais une modulation du rythme :  
 
   .. math::
@@ -40,7 +42,8 @@ dans un champ gravitationnel faible.
 - Pas d’infini → simple recalibration de la fréquence par le potentiel.
 
 Application pratique : horloges atomiques
-=========================================
+-----------------------------------------
+
 - En QFT perturbative : on devrait calculer des corrections infinies aux niveaux
   d’énergie des atomes.  
 - En approche « axiome » : appliquer directement le facteur
@@ -52,14 +55,15 @@ C’est exactement ce que mesurent les expériences :
 - **GPS** : correction quotidienne des horloges spatiales.
 
 Leçons
-======
+------
+
 - **QED/QCD** : renormalisation nécessaire → divergences absorbées dans quelques paramètres.  
 - **Gravité** : problème de variable :  
   - Champ perturbatif → infinis, non renormalisable.  
   - Facteur de rythme universel → correction finie, testée, prédictive.  
 
 Conclusion
-==========
+----------
 Le cas simple du décalage gravitationnel montre que la gravité ne doit pas être
 traitée comme un champ quantique perturbatif. L’axiome *« toute énergie est du temps »*
 et sa modulation par :math:`d\tau/dt` donnent une prédiction **finie, universelle,

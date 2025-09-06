@@ -1,13 +1,12 @@
-=========================================
-WP3 — MQ/QFT minimal en espace-temps courbe
-=========================================
+WP4 — Horloge quantique (Compton et QFT)
+========================================
 
 But
-===
+---
 Montrer que la phase quantique encode naturellement les effets de la relativité générale au premier ordre.
 
-1. Équation de Klein–Gordon courbe
-==================================
+Équation de Klein–Gordon courbe
+-------------------------------
 Équation :
 
 .. math::
@@ -31,8 +30,9 @@ En insérant :
 - **Lecture rythme** : la phase quantique avance en fonction du temps propre (l’horloge interne suit la géodésique).
 
 
-2. Lagrangien non-relativiste en potentiel
-==========================================
+Lagrangien non-relativiste en potentiel
+---------------------------------------
+
 Développement faible vitesse + faible potentiel :
 
 .. math::
@@ -49,8 +49,9 @@ La phase accumulée :
 - **Lecture rythme** : chaque particule ajoute/diminue des battements selon sa cinétique et sa profondeur dans \Phi.
 
 
-3. Phase de Compton modulée
-============================
+Phase de Compton modulée
+------------------------
+
 En réintroduisant le terme :math:`-mc^2t` :
 
 .. math::
@@ -63,7 +64,7 @@ En réintroduisant le terme :math:`-mc^2t` :
 Ainsi, la **phase quantique** contient déjà le couple MQ + RG.
 
 Conclusion
-==========
+----------
 - La QFT en espace-temps courbe redonne directement la condition géodésique (via l’ansatz WKB).  
 - Le Lagrangien NR fait apparaître :math:`m\Phi/\hbar` → déphasages gravitationnels mesurables.  
 - **Lecture rythme** : tout système quantique est une horloge de Compton dont la cadence est modulée par le potentiel gravitationnel et la vitesse.
