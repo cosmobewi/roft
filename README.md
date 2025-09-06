@@ -1,5 +1,8 @@
 # Le rythme des champs
 
+[![Soutenir sur Tipeee](https://img.shields.io/badge/Tipeee-Soutenir-%23e85c8b?logo=heart)](https://fr.tipeee.com/cosmobewi)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-%23323842?logo=ko-fi)](https://ko-fi.com/cosmobewi)
+
 📑 **Projet de recherche exploratoire**  
 Ce dépôt documente une approche originale de la gravité et du temps :  
 **le temps n’est pas un champ séparé mais l’expression rythmique de l’énergie**.  
@@ -64,6 +67,15 @@ Ce projet est publié sous licence **Creative Commons Attribution 4.0 Internatio
 Vous êtes libres de partager et d’adapter le contenu, à condition de citer l’auteur.  
 
 Texte légal complet : [https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+
+---
+
+## Soutenir le projet
+
+💡 Si vous souhaitez soutenir cette recherche indépendante et libre :  
+
+- [💜 Soutenir sur Tipeee](https://fr.tipeee.com/cosmobewi)  
+- [☕ Support us on Ko-fi](https://ko-fi.com/cosmobewi)  
 
 ---
 
