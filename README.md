@@ -1,5 +1,7 @@
 # Rhythm of Fields Theory / Le rythme des champs
 
+🌐 [**📖 Documentation en ligne**](https://cosmobewi.github.io/roft/)  
+
 🌐 [English](#exploratory-research-project) | [Français](#projet-de-recherche-exploratoire)
 
 [![Support on Tipeee](https://img.shields.io/badge/Tipeee-Support-%23e85c8b?logo=heart)](https://fr.tipeee.com/cosmobewi)
