@@ -33,6 +33,6 @@ Conséquences
 
 .. seealso::
 
-   - :doc:`wp4_exemples_calc`  
-   - :doc:`wp15_renormalisation`  
+   - :doc:`wp/wp5_exemples_calc`  
+   - :doc:`wp/wp15_renormalisation`  
    - Référence : `Time dilation <https://en.wikipedia.org/wiki/Time_dilation>`_

@@ -32,5 +32,5 @@ Conséquences
 
 .. seealso::
 
-    - :doc:`wp3_mq_qft_courbe`
+    - :doc:`wp/wp4_horloge_quantique`
     - Référence : `Compton frequency (Wikipedia) <https://en.wikipedia.org/wiki/Compton_frequency>`_
